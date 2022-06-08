@@ -36,7 +36,7 @@ int maxSubArray(vector<int>& nums) {
     }
 int main(){
     vector <int> arr {-2,1,-3,4,-1,2,1,-5,4};
-    int max_Sum= maxSubArray(arr);
-    cout<<max_Sum;
+    int maxi_Sum= maxSubArray(arr);
+    cout<<maxi_Sum;
     return 0;
 }
